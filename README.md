@@ -4,7 +4,7 @@
 {}
 ---
 
-# Stable Video Diffusion Image-to-Video Model Card
+# SDXL-Turbo Model Card
 
 <!-- Provide a quick summary of what the model is/does. -->
 ![row01](output_tile.jpg)
