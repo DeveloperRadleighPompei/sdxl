@@ -15,8 +15,8 @@ A real-time demo is available here: http://clipdrop.co/stable-diffusion-turbo
 
 ### Model Description
 SDXL-Turbo is a distilled version of [SDXL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0), trained for real-time synthesis. 
-SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD) (see the [technical report](TODO)), which allows sampling large-scale foundational 
-image diffusion models in 1--4 steps at high image quality. 
+SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD) (see the [technical report](https://stability.ai/research/adversarial-diffusion-distillation)), which allows sampling large-scale foundational 
+image diffusion models in 1 to 4 steps at high image quality. 
 This approach uses score distillation to leverage large-scale off-the-shelf image diffusion models as a teacher signal and combines this with an
 adversarial loss to ensure high image fidelity even in the low-step regime of one or two sampling steps. 
 
@@ -31,7 +31,7 @@ For research purposes, we recommend our `generative-models` Github repository (h
 which implements the most popular diffusion frameworks (both training and inference).
 
 - **Repository:** https://github.com/Stability-AI/generative-models
-- **Paper:** TODO
+- **Paper:** https://stability.ai/research/adversarial-diffusion-distillation
 - **Demo:** http://clipdrop.co/stable-diffusion-turbo
 
 
@@ -39,9 +39,9 @@ which implements the most popular diffusion frameworks (both training and infere
 ![comparison1](image_quality_one_step.png)
 ![comparison2](prompt_alignment_one_step.png)
 The charts above evaluate user preference for SDXL-Turbo over other single- and multi-step models.
-SDXL-Turbo evluated at a single step is preferred by human voters in terms of image quality and prompt following over LCM-XL evaluated at four (or less) steps.
+SDXL-Turbo evaluated at a single step is preferred by human voters in terms of image quality and prompt following over LCM-XL evaluated at four (or fewer) steps.
 In addition, we see that using four steps for SDXL-Turbo further improves performance.
-For details on the user study, we refer to the [research paper](TODO).
+For details on the user study, we refer to the [research paper](https://stability.ai/research/adversarial-diffusion-distillation).
 
 
 ## Uses
