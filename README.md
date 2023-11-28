@@ -38,8 +38,9 @@ which implements the most popular diffusion frameworks (both training and infere
 ## Evaluation
 ![comparison1](image_quality_one_step.png)
 ![comparison2](prompt_alignment_one_step.png)
-The chart above evaluates user preference for SDXL-Turbo over TODO.
-SDXL-Turbo is preferred by human voters in terms of image quality and prompt following. 
+The charts above evaluate user preference for SDXL-Turbo over other single- and multi-step models.
+SDXL-Turbo evluated at a single step is preferred by human voters in terms of image quality and prompt following over LCM-XL evaluated at four (or less) steps.
+In addition, we see that using four steps for SDXL-Turbo further improves performance.
 For details on the user study, we refer to the [research paper](TODO).
 
 
