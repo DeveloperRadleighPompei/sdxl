@@ -1,5 +1,6 @@
 ---
 pipeline_tag: text-to-image
+inference: false
 ---
 
 # SDXL-Turbo Model Card
