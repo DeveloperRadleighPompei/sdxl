@@ -16,7 +16,6 @@ SDXL-Turbo is a fast generative text-to-image model that can synthesize photorea
 TODO: ADD DETAILED MODEL DESCRIPTION.
 
 
-
 - **Developed by:** Stability AI
 - **Funded by:** Stability AI
 - **Model type:** Generative text-to-image model
@@ -29,10 +28,12 @@ which implements the most popular diffusion frameworks (both training and infere
 
 - **Repository:** https://github.com/Stability-AI/generative-models
 - **Paper:** TODO
+- **Demo:** TODO
 
 
 ## Evaluation
-![comparison](comparison.png)
+![comparison1](image_quality_one_step.png)
+![comparison2](prompt_alignment_one_step.png)
 The chart above evaluates user preference for SDXL-Turbo over TODO.
 SDXL-Turbo is preferred by human voters in terms of image quality and prompt following. 
 For details on the user study, we refer to the [research paper](TODO)
