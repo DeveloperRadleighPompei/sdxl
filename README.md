@@ -9,6 +9,7 @@
 <!-- Provide a quick summary of what the model is/does. -->
 ![row01](output_tile.jpg)
 SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation.
+A real-time demo is available here: http://clipdrop.co/stable-diffusion-turbo
 
 ## Model Details
 
@@ -31,7 +32,7 @@ which implements the most popular diffusion frameworks (both training and infere
 
 - **Repository:** https://github.com/Stability-AI/generative-models
 - **Paper:** TODO
-- **Demo:** TODO
+- **Demo:** http://clipdrop.co/stable-diffusion-turbo
 
 
 ## Evaluation
