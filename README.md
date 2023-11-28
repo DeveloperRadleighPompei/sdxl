@@ -1,7 +1,5 @@
 ---
-# For reference on model card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1
-# Doc / guide: https://huggingface.co/docs/hub/model-cards
-{}
+pipeline_tag: text-to-image
 ---
 
 # SDXL-Turbo Model Card
@@ -125,6 +123,3 @@ The model is intended for research purposes only.
 ## How to Get Started with the Model
 
 Check out https://github.com/Stability-AI/generative-models
-
-
-
