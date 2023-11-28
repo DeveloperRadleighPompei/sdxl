@@ -13,8 +13,11 @@ SDXL-Turbo is a fast generative text-to-image model that can synthesize photorea
 ## Model Details
 
 ### Model Description
-TODO: ADD DETAILED MODEL DESCRIPTION.
-
+SDXL-Turbo is a distilled version of [SDXL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0), trained for real-time synthesis. 
+SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD) (see the [technical report](TODO)), which allows sampling large-scale foundational 
+image diffusion models in 1--4 steps at high image quality. 
+This approach uses score distillation to leverage large-scale off-the-shelf image diffusion models as a teacher signal and combines this with an
+adversarial loss to ensure high image fidelity even in the low-step regime of one or two sampling steps. 
 
 - **Developed by:** Stability AI
 - **Funded by:** Stability AI
@@ -36,7 +39,8 @@ which implements the most popular diffusion frameworks (both training and infere
 ![comparison2](prompt_alignment_one_step.png)
 The chart above evaluates user preference for SDXL-Turbo over TODO.
 SDXL-Turbo is preferred by human voters in terms of image quality and prompt following. 
-For details on the user study, we refer to the [research paper](TODO)
+For details on the user study, we refer to the [research paper](TODO).
+
 
 ## Uses
 
