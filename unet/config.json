@@ -51,7 +51,7 @@
   "resnet_skip_time_act": false,
   "resnet_time_scale_shift": "default",
   "reverse_transformer_layers_per_block": null,
-  "sample_size": 128,
+  "sample_size": 64,
   "time_cond_proj_dim": null,
   "time_embedding_act_fn": null,
   "time_embedding_dim": null,
