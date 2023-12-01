@@ -1,6 +1,9 @@
 ---
 pipeline_tag: text-to-image
 inference: false
+license: other
+license_name: sai-nc-community
+license_link: https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.TXT  
 ---
 
 # SDXL-Turbo Model Card
